@@ -4,7 +4,7 @@ if [ "$#" -ne 2 ]; then
     exit 1
 fi
 
-size=`zfs get used $1 -o value -H -p`
+size=`/usr/sbin/zfs get used $1 -o value -H -p`
 
 if [[ $2 =~ "%" ]]; then
   
