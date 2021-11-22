@@ -13,7 +13,7 @@ else
   reserv=`echo "scale=0; $size+$2" | bc`
 fi
 
-echo "size:   $size"
-echo "reserv: $reserv"
+#echo "size:   $size"
+#echo "reserv: $reserv"
 
 `/usr/sbin/zfs set reservation="$reserv" $1`
