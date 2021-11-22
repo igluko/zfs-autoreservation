@@ -16,4 +16,4 @@ fi
 echo "size:   $size"
 echo "reserv: $reserv"
 
-`zfs set reservation="$reserv" rpool/ROOT`
+`zfs set reservation="$reserv" $1`
