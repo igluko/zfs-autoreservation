@@ -9,7 +9,7 @@ or
 
 Example
 ```
-root@pve:~/zfs-autoreservation# zfs get used,reservation  rpool/ROOT
+zfs get used,reservation  rpool/ROOT
 NAME        PROPERTY     VALUE   SOURCE
 rpool/ROOT  used         6.33G   -
 rpool/ROOT  reservation   none   local
@@ -18,6 +18,7 @@ rpool/ROOT  reservation   none   local
 size:   6796353536
 reserv: 7475988889
 
+zfs get used,reservation  rpool/ROOT
 NAME        PROPERTY     VALUE   SOURCE
 rpool/ROOT  used         6.33G   -
 rpool/ROOT  reservation  6.96G   local
