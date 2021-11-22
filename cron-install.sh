@@ -1,6 +1,6 @@
 realpath=`realpath $0`
 dirpath=`dirname $realpath`
-scriptpath="$dirpath/zfs-autoreservation.sh"
+scriptpath="$dirpath/zfs-autoreservation.sh rpool/ROOT 5368709120"
 echo "script path is: $scriptpath"
 cronrecord="* * * * * $scriptpath"
 echo "cron record is: $cronrecord"
