@@ -1,5 +1,7 @@
 # zfs-autoreservation
-This should protect important system datasets from a total lack of free space
+This should protect important system datasets from a total lack of free space.
+
+The second parameter can be a number of bytes or the number of percent to be added to the current dataset size to get the value for the reserve.
 
 ./zfs-autoreservation [dataset_name] [number]
 
