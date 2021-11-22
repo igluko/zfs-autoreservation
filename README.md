@@ -2,11 +2,11 @@
 This should protect important system datasets from a total lack of free space
 
 
-./zfs-autoreservation <dataset_name> <int>
+./zfs-autoreservation <dataset_name> <number>
  
  or
  
-./zfs-autoreservation <dataset_name> <int%>
+./zfs-autoreservation <dataset_name> <number%>
 
 Example
 ```
